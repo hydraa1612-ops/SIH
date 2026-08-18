@@ -1,0 +1,24 @@
+--- QC Report for nasa ---
+Total Rows: 7277550
+Unique Batteries: 34
+Duplicate Rows: 0
+
+Missing Values per Column:
+source_id                 0
+battery_id                0
+chemistry                 0
+pack_or_cell              0
+timestamp                 0
+voltage                 257
+current                 257
+temperature             257
+SOC                 7277550
+cell_voltage_min    7277550
+cell_voltage_max    7277550
+capacity_Ah         6512876
+cycle_index               0
+operating_state           0
+fault_label               0
+fault_severity      7277550
+EOL_definition            0
+split_group               0

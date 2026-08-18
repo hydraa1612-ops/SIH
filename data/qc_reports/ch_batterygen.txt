@@ -1,0 +1,24 @@
+--- QC Report for ch_batterygen ---
+Total Rows: 4248899
+Unique Batteries: 2728
+Duplicate Rows: 0
+
+Missing Values per Column:
+source_id                 0
+battery_id                0
+chemistry                 0
+pack_or_cell              0
+timestamp                 0
+voltage                   0
+current                   0
+temperature               0
+SOC                       0
+cell_voltage_min          0
+cell_voltage_max          0
+capacity_Ah         4248899
+cycle_index         4248899
+operating_state           0
+fault_label               0
+fault_severity      4248899
+EOL_definition            0
+split_group               0
