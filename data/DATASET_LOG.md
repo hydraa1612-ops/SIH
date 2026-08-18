@@ -1,5 +1,5 @@
 # Raw Dataset Metadata Log 
-Generated on: 19-08-2026  2:14:07.40 
+Generated on: 19-08-2026  2:30:09.33 
  
 ## Directory Tree and File Inventory 
  Volume in drive C has no label.
@@ -10,7 +10,7 @@ Generated on: 19-08-2026  2:14:07.40
 19-08-2026  01:44    <DIR>          .
 19-08-2026  02:14    <DIR>          ..
 19-08-2026  01:59    <DIR>          batterylife
-19-08-2026  02:03    <DIR>          ch_batterygen
+19-08-2026  02:29    <DIR>          ch_batterygen
 19-08-2026  01:57    <DIR>          ev20
 19-08-2026  02:12    <DIR>          nasa
                0 File(s)              0 bytes
@@ -467,144 +467,11 @@ Generated on: 19-08-2026  2:14:07.40
 
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen
 
-19-08-2026  02:03    <DIR>          .
+19-08-2026  02:29    <DIR>          .
 19-08-2026  01:44    <DIR>          ..
 19-08-2026  02:03             4,895 .gitignore
 19-08-2026  02:03             4,387 README.md
                2 File(s)          9,282 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git
-
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03               342 config
-19-08-2026  02:03                73 description
-19-08-2026  02:03                21 HEAD
-19-08-2026  02:03    <DIR>          hooks
-19-08-2026  02:03               217 index
-19-08-2026  02:03    <DIR>          info
-19-08-2026  02:03    <DIR>          logs
-19-08-2026  02:03    <DIR>          objects
-19-08-2026  02:03               170 packed-refs
-19-08-2026  02:03    <DIR>          refs
-               5 File(s)            823 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\hooks
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03               478 applypatch-msg.sample
-19-08-2026  02:03             1,972 commit-msg.sample
-19-08-2026  02:03             4,611 fsmonitor-watchman.sample
-19-08-2026  02:03               189 post-update.sample
-19-08-2026  02:03               424 pre-applypatch.sample
-19-08-2026  02:03             1,649 pre-commit.sample
-19-08-2026  02:03               416 pre-merge-commit.sample
-19-08-2026  02:03             1,374 pre-push.sample
-19-08-2026  02:03             4,898 pre-rebase.sample
-19-08-2026  02:03               544 pre-receive.sample
-19-08-2026  02:03             1,492 prepare-commit-msg.sample
-19-08-2026  02:03             2,783 push-to-checkout.sample
-19-08-2026  02:03             2,308 sendemail-validate.sample
-19-08-2026  02:03             3,650 update.sample
-              14 File(s)         26,788 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\info
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03               240 exclude
-               1 File(s)            240 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\logs
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03               212 HEAD
-19-08-2026  02:03    <DIR>          refs
-               1 File(s)            212 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\logs\refs
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03    <DIR>          heads
-19-08-2026  02:03    <DIR>          remotes
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\logs\refs\heads
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03               212 main
-               1 File(s)            212 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\logs\refs\remotes
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03    <DIR>          origin
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\logs\refs\remotes\origin
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03               212 HEAD
-               1 File(s)            212 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\objects
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          info
-19-08-2026  02:03    <DIR>          pack
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\objects\info
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\objects\pack
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03             1,688 pack-527eb8f26b63d39a56eb3b00d147415f95e27c22.idx
-19-08-2026  02:03            13,782 pack-527eb8f26b63d39a56eb3b00d147415f95e27c22.pack
-19-08-2026  02:03               140 pack-527eb8f26b63d39a56eb3b00d147415f95e27c22.rev
-               3 File(s)         15,610 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\refs
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          heads
-19-08-2026  02:03    <DIR>          remotes
-19-08-2026  02:03    <DIR>          tags
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\refs\heads
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03                41 main
-               1 File(s)             41 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\refs\remotes
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03    <DIR>          origin
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\refs\remotes\origin
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-19-08-2026  02:03                30 HEAD
-               1 File(s)             30 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ch_batterygen\.git\refs\tags
-
-19-08-2026  02:03    <DIR>          .
-19-08-2026  02:03    <DIR>          ..
-               0 File(s)              0 bytes
 
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20
 
@@ -791,5 +658,5 @@ Generated on: 19-08-2026  2:14:07.40
                6 File(s)    209,659,202 bytes
 
      Total Files Listed:
-             282 File(s)    859,267,473 bytes
-             203 Dir(s)  282,609,750,016 bytes free
+             254 File(s)    859,223,305 bytes
+             162 Dir(s)  282,576,334,848 bytes free
