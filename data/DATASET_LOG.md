@@ -1,5 +1,5 @@
 # Raw Dataset Metadata Log 
-Generated on: 19-08-2026  2:30:09.33 
+Generated on: 19-08-2026  2:32:53.57 
  
 ## Directory Tree and File Inventory 
  Volume in drive C has no label.
@@ -9,15 +9,15 @@ Generated on: 19-08-2026  2:30:09.33
 
 19-08-2026  01:44    <DIR>          .
 19-08-2026  02:14    <DIR>          ..
-19-08-2026  01:59    <DIR>          batterylife
+19-08-2026  02:32    <DIR>          batterylife
 19-08-2026  02:29    <DIR>          ch_batterygen
-19-08-2026  01:57    <DIR>          ev20
+19-08-2026  02:32    <DIR>          ev20
 19-08-2026  02:12    <DIR>          nasa
                0 File(s)              0 bytes
 
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife
 
-19-08-2026  01:59    <DIR>          .
+19-08-2026  02:32    <DIR>          .
 19-08-2026  01:44    <DIR>          ..
 19-08-2026  01:59               199 .gitignore
 19-08-2026  01:59            83,936 aging_conditions.py
@@ -50,143 +50,10 @@ Generated on: 19-08-2026  2:30:09.33
 19-08-2026  01:59    <DIR>          visualization
               16 File(s)        279,516 bytes
 
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git
-
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  02:00               334 config
-19-08-2026  01:58                73 description
-19-08-2026  01:59                21 HEAD
-19-08-2026  01:58    <DIR>          hooks
-19-08-2026  01:59            16,599 index
-19-08-2026  01:58    <DIR>          info
-19-08-2026  01:59    <DIR>          logs
-19-08-2026  01:58    <DIR>          objects
-19-08-2026  01:59               112 packed-refs
-19-08-2026  01:59    <DIR>          refs
-               5 File(s)         17,139 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\hooks
-
-19-08-2026  01:58    <DIR>          .
-19-08-2026  01:58               478 applypatch-msg.sample
-19-08-2026  01:58             1,972 commit-msg.sample
-19-08-2026  01:58             4,611 fsmonitor-watchman.sample
-19-08-2026  01:58               189 post-update.sample
-19-08-2026  01:58               424 pre-applypatch.sample
-19-08-2026  01:58             1,649 pre-commit.sample
-19-08-2026  01:58               416 pre-merge-commit.sample
-19-08-2026  01:58             1,374 pre-push.sample
-19-08-2026  01:58             4,898 pre-rebase.sample
-19-08-2026  01:58               544 pre-receive.sample
-19-08-2026  01:58             1,492 prepare-commit-msg.sample
-19-08-2026  01:58             2,783 push-to-checkout.sample
-19-08-2026  01:58             2,308 sendemail-validate.sample
-19-08-2026  01:58             3,650 update.sample
-              14 File(s)         26,788 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\info
-
-19-08-2026  01:58    <DIR>          .
-19-08-2026  01:58               240 exclude
-               1 File(s)            240 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\logs
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59               204 HEAD
-19-08-2026  01:59    <DIR>          refs
-               1 File(s)            204 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\logs\refs
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  01:59    <DIR>          heads
-19-08-2026  01:59    <DIR>          remotes
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\logs\refs\heads
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  01:59               204 main
-               1 File(s)            204 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\logs\refs\remotes
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  01:59    <DIR>          origin
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\logs\refs\remotes\origin
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  01:59               204 HEAD
-               1 File(s)            204 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\objects
-
-19-08-2026  01:58    <DIR>          .
-19-08-2026  01:58    <DIR>          info
-19-08-2026  01:59    <DIR>          pack
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\objects\info
-
-19-08-2026  01:58    <DIR>          .
-19-08-2026  01:58    <DIR>          ..
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\objects\pack
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:58    <DIR>          ..
-19-08-2026  01:59            35,708 pack-6f4bb94683f3ccfc0fe25cd2fd1808a8a074d535.idx
-19-08-2026  01:59       127,499,257 pack-6f4bb94683f3ccfc0fe25cd2fd1808a8a074d535.pack
-19-08-2026  01:59             5,000 pack-6f4bb94683f3ccfc0fe25cd2fd1808a8a074d535.rev
-               3 File(s)    127,539,965 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\refs
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          heads
-19-08-2026  01:59    <DIR>          remotes
-19-08-2026  01:58    <DIR>          tags
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\refs\heads
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  01:59                41 main
-               1 File(s)             41 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\refs\remotes
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  01:59    <DIR>          origin
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\refs\remotes\origin
-
-19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-19-08-2026  01:59                30 HEAD
-               1 File(s)             30 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\.git\refs\tags
-
-19-08-2026  01:58    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
-               0 File(s)              0 bytes
-
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\assets
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59             2,427 Data_download.md
 19-08-2026  01:59             2,557 Data_structure_description.md
 19-08-2026  01:59    <DIR>          figures
@@ -214,7 +81,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\check_data_scripts
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59         5,915,161 check_capacity_curves.ipynb
 19-08-2026  01:59    <DIR>          check_Farasis
 19-08-2026  01:59            27,520 check_operating_conditions.ipynb
@@ -245,7 +112,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\dataset
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59    <DIR>          seen_unseen_labels
                0 File(s)              0 bytes
 
@@ -266,7 +133,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\data_provider
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59             6,990 data_factory.py
 19-08-2026  01:59            38,482 data_loader.py
 19-08-2026  01:59            41,373 data_split_recorder.py
@@ -277,7 +144,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\figures
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59         1,704,149 error_curve.jpg
 19-08-2026  01:59            41,472 error_curve.pdf
 19-08-2026  01:59         1,166,461 first_fig.jpg
@@ -294,7 +161,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\layers
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59             6,603 AutoCorrelation.py
 19-08-2026  01:59             7,034 Autoformer_EncDec.py
 19-08-2026  01:59             2,427 Conv_Blocks.py
@@ -309,7 +176,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\models
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59             3,970 Autoformer.py
 19-08-2026  01:59             2,953 BiGRU.py
 19-08-2026  01:59             2,960 BiLSTM.py
@@ -335,7 +202,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\plot_scripts
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59           344,031 first_fig.jpg
 19-08-2026  01:59            28,952 first_fig.pdf
 19-08-2026  01:59             8,897 plt_MATR_sequences.py
@@ -344,7 +211,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\process_scripts
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59            11,461 Extract_life_labels.py
 19-08-2026  01:59    <DIR>          Extract_life_labels_tools
 19-08-2026  01:59            13,401 preprocess_CALB.py
@@ -380,14 +247,14 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\read_structure
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59               795 read_data_structure.py
                1 File(s)            795 bytes
 
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\train_eval_scripts
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59             1,662 Autoformer.sh
 19-08-2026  01:59             1,598 CNN.sh
 19-08-2026  01:59             1,598 CPBiGRU.sh
@@ -409,7 +276,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\utils
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59            12,459 augmentation.py
 19-08-2026  01:59             1,514 data_split_helper.py
 19-08-2026  01:59             4,326 losses.py
@@ -457,7 +324,7 @@ Generated on: 19-08-2026  2:30:09.33
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\batterylife\visualization
 
 19-08-2026  01:59    <DIR>          .
-19-08-2026  01:59    <DIR>          ..
+19-08-2026  02:32    <DIR>          ..
 19-08-2026  01:59             9,003 first_fig.py
 19-08-2026  01:59             7,038 plot_sample.py
 19-08-2026  01:59           251,512 plt_error_curves.ipynb
@@ -475,7 +342,7 @@ Generated on: 19-08-2026  2:30:09.33
 
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20
 
-19-08-2026  01:57    <DIR>          .
+19-08-2026  02:32    <DIR>          .
 19-08-2026  01:44    <DIR>          ..
 19-08-2026  01:57        12,238,871 #1.rar
 19-08-2026  01:57        10,508,142 #10.rar
@@ -505,139 +372,6 @@ Generated on: 19-08-2026  2:30:09.33
 19-08-2026  01:57           758,732 Supplementary materials.pdf
               26 File(s)    234,904,980 bytes
 
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git
-
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57               373 config
-19-08-2026  01:47                73 description
-19-08-2026  01:57                21 HEAD
-19-08-2026  01:47    <DIR>          hooks
-19-08-2026  01:57             1,978 index
-19-08-2026  01:47    <DIR>          info
-19-08-2026  01:57    <DIR>          logs
-19-08-2026  01:47    <DIR>          objects
-19-08-2026  01:57               112 packed-refs
-19-08-2026  01:57    <DIR>          refs
-               5 File(s)          2,557 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\hooks
-
-19-08-2026  01:47    <DIR>          .
-19-08-2026  01:47               478 applypatch-msg.sample
-19-08-2026  01:47             1,972 commit-msg.sample
-19-08-2026  01:47             4,611 fsmonitor-watchman.sample
-19-08-2026  01:47               189 post-update.sample
-19-08-2026  01:47               424 pre-applypatch.sample
-19-08-2026  01:47             1,649 pre-commit.sample
-19-08-2026  01:47               416 pre-merge-commit.sample
-19-08-2026  01:47             1,374 pre-push.sample
-19-08-2026  01:47             4,898 pre-rebase.sample
-19-08-2026  01:47               544 pre-receive.sample
-19-08-2026  01:47             1,492 prepare-commit-msg.sample
-19-08-2026  01:47             2,783 push-to-checkout.sample
-19-08-2026  01:47             2,308 sendemail-validate.sample
-19-08-2026  01:47             3,650 update.sample
-              14 File(s)         26,788 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\info
-
-19-08-2026  01:47    <DIR>          .
-19-08-2026  01:47               240 exclude
-               1 File(s)            240 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\logs
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57               243 HEAD
-19-08-2026  01:57    <DIR>          refs
-               1 File(s)            243 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\logs\refs
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57    <DIR>          heads
-19-08-2026  01:57    <DIR>          remotes
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\logs\refs\heads
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57               243 main
-               1 File(s)            243 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\logs\refs\remotes
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57    <DIR>          origin
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\logs\refs\remotes\origin
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57               243 HEAD
-               1 File(s)            243 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\objects
-
-19-08-2026  01:47    <DIR>          .
-19-08-2026  01:47    <DIR>          info
-19-08-2026  01:57    <DIR>          pack
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\objects\info
-
-19-08-2026  01:47    <DIR>          .
-19-08-2026  01:47    <DIR>          ..
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\objects\pack
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:47    <DIR>          ..
-19-08-2026  01:57             2,836 pack-8b0e2ed6ec6b566222cc49f808ef7351ee12c755.idx
-19-08-2026  01:57       233,286,534 pack-8b0e2ed6ec6b566222cc49f808ef7351ee12c755.pack
-19-08-2026  01:57               304 pack-8b0e2ed6ec6b566222cc49f808ef7351ee12c755.rev
-               3 File(s)    233,289,674 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\refs
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          heads
-19-08-2026  01:57    <DIR>          remotes
-19-08-2026  01:47    <DIR>          tags
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\refs\heads
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57                41 main
-               1 File(s)             41 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\refs\remotes
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57    <DIR>          origin
-               0 File(s)              0 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\refs\remotes\origin
-
-19-08-2026  01:57    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-19-08-2026  01:57                30 HEAD
-               1 File(s)             30 bytes
-
- Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\ev20\.git\refs\tags
-
-19-08-2026  01:47    <DIR>          .
-19-08-2026  01:57    <DIR>          ..
-               0 File(s)              0 bytes
-
  Directory of C:\Users\Sarthak Kathaith\Desktop\ps88-battery-health\data\raw\nasa
 
 19-08-2026  02:12    <DIR>          .
@@ -658,5 +392,5 @@ Generated on: 19-08-2026  2:30:09.33
                6 File(s)    209,659,202 bytes
 
      Total Files Listed:
-             254 File(s)    859,223,305 bytes
-             162 Dir(s)  282,576,334,848 bytes free
+             198 File(s)    498,318,431 bytes
+              80 Dir(s)  283,078,250,496 bytes free
