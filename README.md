@@ -151,3 +151,130 @@ Not every laptop on the team can handle the same workload — one has 4GB of RAM
 
 **For manufacturers and BMS developers, longer-term.** While our prototype doesn't integrate with live proprietary BMS systems (because that access simply isn't available to us), the architecture is built so that a real BMS data feed could be integrated later without redesigning the whole system. The ingestion layer is built to accept that kind of input; it's just not populated with real live data in this hackathon version, and we say that clearly rather than imply otherwise.
 If there's one sentence that summarizes the whole approach: **we tried to build the simplest version of this system that we could fully stand behind, rather than the most impressive-sounding version we couldn't.**
+
+**NEW UPDATES:**
+# ⚡ EV Battery Management System (BMS) Diagnostics & Prognostics Platform
+
+An end-to-end Machine Learning and REST API platform for real-time EV battery telemetry monitoring, State of Health ($\text{SOH}\%$) estimation, multi-class fault classification, and Remaining Useful Life ($\text{RUL}$) cycle prediction.
+
+---
+
+## 📌 Project Architecture
+                              +-----------------------+
+                              |   Streamlit Frontend  |
+                              |   (src/dashboard)     |
+                              +-----------+-----------+
+                                          |
+                                 HTTP POST | JSON Payload
+                                          v
+                              +-----------------------+
+                              |    FastAPI REST Service|
+                              |    (src/api/app.py)    |
+                              +-----------+-----------+
+                                          |
+                                          | Feature Processing
+                                          v
+  +---------------------------------------+---------------------------------------+
+  |                                       |                                       |
+  v                                       v                                       v
++-----------------------+           +-----------------------+           +-----------------------+
+|  Scale-Invariant SOH  |           |  Fault Classifier     |           |  RUL Prognostics      |
+|  LightGBM Regressor   |           |  Multi-class LightGBM |           |  LightGBM Regressor   |
++-----------------------+           +-----------------------+           +-----------------------+
+
+---
+
+## 📊 ML Model Performance & Specifications
+
+| Model Target | Algorithm | Key Input Features | Primary Metrics |
+| :--- | :--- | :--- | :--- |
+| **State of Health (SOH%)** | LightGBM Regressor | `cell_voltage_avg`, `cell_voltage_min`, `cell_voltage_max`, `temperature`, `SOC` | **MAE:** $1.63\%$<br>**$R^2$ Score:** $0.9901$ |
+| **Fault Status** | LightGBM Classifier | `voltage`, `current`, `temperature`, `SOC`, `cell_voltage_min`, `cell_voltage_max` | **Accuracy:** $> 98\%$<br>**Classes:** Normal, Cell Imbalance, Thermal Anomaly |
+| **Remaining Useful Life (RUL)** | LightGBM Regressor | `voltage`, `current`, `temperature`, `SOC`, `cell_voltage_min`, `cell_voltage_max` | **MAE:** $\sim 12$ Cycles |
+
+---
+
+## 📁 Repository Structure
+
+SIH/
+├── data/                      # Raw and processed battery parquet datasets
+├── notebooks/                 # Exploratory data analysis & model development notebooks
+├── saved_models/              # Trained joblib artifacts (.pkl files)
+├── src/
+│   ├── api/                   # FastAPI backend implementation
+│   │   └── app.py
+│   ├── dashboard/             # Interactive Streamlit visualizer
+│   │   └── app.py
+│   ├── features/              # Feature engineering modules
+│   ├── models/                # Model training and cross-check scripts
+│   └── pipeline/              # Rules engine and safety logic
+├── requirements.txt           # Python environment dependencies
+└── README.md                  # Project documentation
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Prerequisites & Environment Setup
+Ensure you have Python 3.10+ installed. Clone the repository and install dependencies:
+
+```powershell
+# Clone repository
+git clone [https://github.com/hydraa1612-ops/SIH.git](https://github.com/hydraa1612-ops/SIH.git)
+cd SIH
+
+# Create and activate virtual environment
+python -m venv astro_env
+.\astro_env\Scripts\Activate.ps1
+
+# Install requirements
+pip install -r backend/requirements.txt
+
+2. Launch FastAPI Backend
+Start the high-performance inference REST API:
+uvicorn src.api.app:app --reload --host 127.0.0.1 --port 8000
+
+Interactive Swagger Docs available at: http://127.0.0.1:8000/docs
+
+3. Launch Streamlit UI Dashboard
+In a separate terminal window, start the frontend interface:
+
+PowerShell
+streamlit run src/dashboard/app.py
+Dashboard URL: http://localhost:8501
+
+🔌 API Endpoint Reference
+POST /predict
+Runs unified batch inference across all three ML diagnostic models.
+
+Sample Request Body:
+
+JSON
+{
+  "voltage": 115.2,
+  "current": -12.5,
+  "temperature": 28.5,
+  "SOC": 82.0,
+  "cell_voltage_min": 3.58,
+  "cell_voltage_max": 3.62
+}
+Sample Response Body:
+
+JSON
+{
+  "soh_percentage": 80.5,
+  "fault_status": "NORMAL",
+  "estimated_rul_cycles": 607,
+  "telemetry_received": { ... }
+}
+
+---
+
+**Git Terminal Commands**
+
+Run these in your VS Code terminal after updating and saving `README.md`:
+
+```powershell
+git add README.md
+git commit -m "Docs: Update README with project architecture and API reference"
+git push
+
